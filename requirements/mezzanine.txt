@@ -18,7 +18,7 @@ beret_utils
 mezzanine # CMS
 
 # https://github.com/stephenmcd/mezzanine/issues/2008
-Django<4 # mezzanine still import obsolete url django package
+Django<5 # mezzanine still import obsolete url django package
 # ------------------------------------------------------------------------------
 
 ### Django
