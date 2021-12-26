@@ -1,0 +1,101 @@
+### general python libraries
+# ------------------------------------------------------------------------------
+six
+httpretty
+
+### add common utils from repo
+# ------------------------------------------------------------------------------
+beret_utils
+
+### for celery and django application
+# ------------------------------------------------------------------------------
+# redis
+# celery
+# flower
+
+### for django and CMS packages
+# ------------------------------------------------------------------------------
+mezzanine # CMS
+
+# https://github.com/stephenmcd/mezzanine/issues/2008
+Django<4 # mezzanine still import obsolete url django package
+# ------------------------------------------------------------------------------
+
+### Django
+# ------------------------------------------------------------------------------
+django-environ==0.8.1  # https://github.com/joke2k/django-environ
+django-model-utils==4.2.0  # https://github.com/jazzband/django-model-utils
+django-allauth==0.47.0  # https://github.com/pennersr/django-allauth
+django-crispy-forms==1.13.0  # https://github.com/django-crispy-forms/django-crispy-forms
+crispy-bootstrap5==0.6  # https://github.com/django-crispy-forms/crispy-bootstrap5
+django-redis==5.2.0  # https://github.com/jazzband/django-redis
+
+psycopg2 # PostgreSQL database
+
+django-extensions
+python-memcached
+environs # simplified environment variable parsing
+# django-middleware-global-request # global access to request
+Werkzeug # for runserver_plus
+
+### for datetime and calendar
+# ------------------------------------------------------------------------------
+pytz
+holidays
+
+### for testing
+# ------------------------------------------------------------------------------
+pytest
+factory_boy
+
+### for deploying
+# ------------------------------------------------------------------------------
+# django-heroku
+# gunicorn
+# dj-database-url
+
+### for data science
+# ------------------------------------------------------------------------------
+# jupyter
+# ipython
+# notebook
+
+### rest framework
+# ------------------------------------------------------------------------------
+# djangorestframework
+# markdown # Markdown support for the browsable API
+# coreapi # Schema generation support.
+# drf-yasg # next generation of swagger
+# djangorestframework-api-key # for api key authentiation
+
+### for sentry error logger
+# ------------------------------------------------------------------------------
+# sentry-sdk
+
+### for websocket data
+# ------------------------------------------------------------------------------
+# websocket-client
+
+### for microservices messagging
+# ------------------------------------------------------------------------------
+# nameko
+
+### for unit tests
+# ------------------------------------------------------------------------------
+# factory
+
+### a new idea to manage date series and store pandas
+# ------------------------------------------------------------------------------
+# ttseries
+
+### django websocket implemetation
+# ------------------------------------------------------------------------------
+# https://channels.readthedocs.io/en/stable/
+# https://realpython.com/getting-started-with-django-channels/
+# ------------------------------------------------------------------------------
+# channels
+# asgi_redis
+# # optional backed
+# channels-redis
+# # for daphne html2 support
+# Twisted[tls,http2]
